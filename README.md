@@ -1,14 +1,15 @@
 # Group Project : Evaluating the Feasibility of In-House Delivery for a Leading UK Packaging Company 
   
-- Disclaimer: I completed the following group project as part of the LSE Data Analytics Career Accelearator Course (April 2024 - November 2024)
-- Grade 90%
+🔦 *Disclaimer: I completed the following project as part of the LSE Data Analytics Career Accelearator Course (April 2024 - November 2024)*
+
+🔖 Grade 90%
 
   
 ![Group Project](https://github.com/user-attachments/assets/fa40aa25-8438-4321-8d27-a212b4c653dd)
 
 
 
-## Business Question: Can a leading UK packaging distribution company reduce costs by bringing deliveries in-house?
+## Can a leading UK packaging distribution company reduce costs by bringing deliveries in-house?
 
 This was a real-world business project, and by far the most collaborative one I worked on. Along with three other analysts, we partnered with a leading UK Packaging Distribution Company to assess whether transitioning from third party couriers to an in house delivery model would be financially and operationally viable. 
 Due to the sensitive nature of the data, we signed an NDA, so while I can’t disclose specific figures, I can share the analytical approach and key insights gained throughout the project.
