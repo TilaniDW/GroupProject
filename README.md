@@ -1,34 +1,62 @@
 # Group Project : Evaluating the Feasibility of In-House Delivery for a Leading UK Packaging Company 
   
-🔦 *Disclaimer: I completed the following project as part of the LSE Data Analytics Career Accelearator Course (April 2024 - November 2024)*
+>🔦 *Disclaimer: I completed the following project as part of the LSE Data Analytics Career Accelearator Course (April 2024 - November 2024)*
 
-🔖 Grade 90%
+>🔖 Grade 85%
 
   
-![Group Project](https://github.com/user-attachments/assets/fa40aa25-8438-4321-8d27-a212b4c653dd)
+![Group Project](GroupProject_images/GroupProject_banner.png)
 
 
 
-## Can a leading UK packaging distribution company reduce costs by bringing deliveries in-house?
+## ❓ Can a leading UK packaging distribution company reduce costs and improve efficiency by bringing deliveries in-house?
 
-This was a real-world business project, and by far the most collaborative one I worked on. Along with three other analysts, we partnered with a leading UK Packaging Distribution Company to assess whether transitioning from third party couriers to an in house delivery model would be financially and operationally viable. 
-Due to the sensitive nature of the data, we signed an NDA, so while I can’t disclose specific figures, I can share the analytical approach and key insights gained throughout the project.
+### 📌 Overview
 
-From the start, our team – ‘LogiKit Analysts’, leveraged complementary skills to divide responsibilities effectively. I contributed by ensuring data quality and analysis structure, as well as applying Python and Excel for key calculations. I also brought some creativity into the project by designing our team logo and report visuals. We met biweekly via Google Meet, using Google Docs to collaborate efficiently while keeping each other updated through WhatsApp.
+This was a real-world group project, where three other LSE data analysts and I, as part of ‘Logikit Analysts’, worked with a UK packaging Distribution Company to evaluate whether transitioning from third-party couriers to in-house deliveries would be financially viable.
 
-Our analysis focused on three main areas:
-1. Profit Impact – Evaluating whether an in-house delivery model could lead to cost savings and improve operational efficiency.
-2. Fleet Optimisation – Determining the optimal fleet size and vehicle types needed to sustain in-house deliveries within a 50-mile radius.
-3. Freight & Route Efficiency – Using Google API, Python, and Tableau to model delivery distances, customer demand clusters, and cost per mile to identify the most economical delivery zones.
+Our team had complementary skills, so we divided responsibilities effectively. My focus was on ensuring data quality, structuring the analysis, and applying Python and Excel for key calculations. I also contributed to the creative side of the project, designing our team logo and report visuals to help communicate our findings effectively.
 
-We worked with Excel and Python (Pandas, NumPy, Seaborn, Matplotlib) to clean and merge e-commerce and delivery data, and used Google API to calculate precise delivery distances. Using K-Means clustering, we analysed customer density to optimise delivery routes, and employed predictive modelling to estimate fleet costs and profitability across different delivery scenarios. At the mid-project review, we presented initial findings and incorporated feedback to refine our approach. By the final presentation, we had developed clear, data-driven recommendations outlining an optimal fleet strategy and identifying specific routes that would be most profitable for in-house management. The employer was particularly impressed by our scenario modelling and clustering analysis, which provided a structured, evidence-based strategy for decision-making.
+Since this was a real-world business project, the data, report, and presentation are confidential, so I can only share the approach and key insights.
 
-This project was a fantastic opportunity to apply data analytics to a real-world logistics and supply chain challenge, reinforcing my skills in Python, Excel, API integration, Tableau, and business storytelling. Most importantly, it strengthened my ability to collaborate in a high-stakes, team-driven environment while delivering insights that could have a tangible business impact.
+### 🛠️ Approach & Tools
 
-### Employer Feedback
+*1. Data Preparation & Collaboration*
 
-“*Exceptional work. Some slides were data-heavy, but I’d be happy for this to be shown to the business. Great job breaking down the data by geographical area and analysing how many vehicles can operate per day. Smart insights, particularly from a value perspective. The fleet estimates were accurate. Well done incorporating feedback from the dry run, making the information more readable.*”
+- Ensured data quality and structured analysis using Python (Pandas, NumPy), Excel, and Tableau.
+- Standardised partial postcodes and used Google Distance Matrix API to calculate distances from the Coventry Distribution Centre.
+- Conducted biweekly meetings and collaborated via Google Docs and WhatsApp to maintain workflow efficiency.
+
+*2. Key Analytical Areas*
+
+- Profit Impact - Evaluated whether in-house deliveries would lead to cost savings.
+- Fleet Optimisation - Determined the optimal fleet size and vehicle types needed to sustain in-house deliveries.
+- Freight & Route Efficiency - Used Google API, Python, and Tableau to analyse delivery distances, customer demand clusters, and cost per mile.
 
 
+
+### 📊 Business Impact
+
+- Identified the most profitable delivery routes within a 50-mile radius, leading to potential monthly cost savings of £6.5k for the company.
+- Determined that transitioning in-house deliveries to key regions (Greater Birmingham, Leicestershire, and South Midlands) could reduce delivery costs as a percentage of revenue by 19%.
+- Recommended a fleet of four 7.5-ton LGVs with four drivers, ensuring operational efficiency while maintaining an 8-hour shift schedule.
+- Tested delivery feasibility at different distance ranges (25 and 100 miles), confirming that deliveries beyond 50 miles would not be cost-effective.
+- Used Python, Tableau, and Google API for route optimisation, clustering, and distance analysis, validating the model with external route optimisation software (Routific).
+- Proposed a hybrid model with courier partnerships as a contingency, mitigating operational risks while maximising cost efficiency.
+
+### 🎯 Key Takeaways
+
+- Gained hands-on experience in logistics and supply chain analytics, applying data science techniques to optimise fleet operations.
+- Strengthened my ability to collaborate in a real-world business environment, working as part of a team to structure, validate, and present actionable insights.
+- Developed expertise in route optimisation, comparing results between Python-based algorithms and external validation tools (Routific).
+- Learned how to combine geospatial analysis, clustering, and cost modelling to provide data-driven recommendations for fleet and route efficiency.
+- Reinforced the importance of scenario testing and stakeholder communication, ensuring that insights were practical and actionable for decision-makers.
+
+### Employer partner’s feedback
+*‘‘That was exceptional. Some slides were data heavy, however I would be happy for this to be shown to the business.*
+
+*Well done on breaking down the data by geographical area, and analyses how many vehicles can operate in that area per day.*
+
+*The insight was smart, particularly looking at it from a value perspective. The numbers and estimates around the number of vehicles were accurate. Well done for taking the cluster names feedback from the initial dry run, on board and making the information more readable. Really good work! ’’*
 
 
